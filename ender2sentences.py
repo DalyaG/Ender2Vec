@@ -18,7 +18,7 @@ nltk.download("punkt")
 nltk.download("stopwords")
 
 corpus_raw = u""
-with codecs.open('C:\\Users\\Rey\\Projects\\PersonalDevelopment\\Tutorials\\EnderNLP\\Ender.txt', "r", "utf-8") as book_file:
+with codecs.open('C:\\Users\\Rey\\Projects\\Ender2Vec\\Ender.txt', "r", "utf-8") as book_file:
         corpus_raw += book_file.read()
 
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
